@@ -1,0 +1,67 @@
+.chatArea {
+  flex: 0.63;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: #4e526d;
+}
+
+.mainChatArea {
+  height: 100%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: flex-start; */
+  background-color: #4e526d;
+  scrollbar-width: thin;
+  scrollbar-color: #4e526d #4e526d;
+}
+
+.serverInfo {
+  margin: auto;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.serverInfo > h1 {
+  margin-bottom: 0.2em;
+}
+
+.serverInfo > p {
+  max-width: 550px;
+  text-align: center;
+}
+
+.currentUser {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  scrollbar-width: thin;
+  scrollbar-color: #4e526d #4e526d;
+}
+
+.otherUser {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  scrollbar-width: thin;
+  scrollbar-color: #4e526d #4e526d;
+  margin-left: 3px;
+}
+
+.senderAvatar {
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding-right: 10px;
+}

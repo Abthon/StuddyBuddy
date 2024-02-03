@@ -1,0 +1,87 @@
+body {
+  background-color: #2d2d39;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #3f4055;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
+}
+
+.form-box > h1 {
+  font-family: "K2D";
+  align-self: center;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.login-form input {
+  width: 88%;
+  padding: 15px;
+  margin: 15px 0;
+  border: none;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  border: 1px solid #4a6397;
+  outline: none;
+}
+
+.form-box a {
+  font-family: "K2D";
+  color: #7dcec2;
+  margin-top: 1em;
+  align-self: flex-start;
+}
+
+.custom-btn {
+  width: 100%;
+  height: 40px;
+  color: rgba(0, 0, 0, 0.7);
+  border-radius: 3px;
+  padding: 25px 25px;
+  font-family: "Dm Mono";
+  font-weight: 500;
+  font-size: 1.2em;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-2 {
+  background: #7dcec2;
+  background: linear-gradient(0deg, #7dcec2 0%, #7dcec2 100%);
+  border: none;
+}
+
+.btn-2:before {
+  height: 0%;
+  width: 2px;
+}

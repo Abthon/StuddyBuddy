@@ -1,0 +1,60 @@
+*{
+    font-family: "Dm Mono";
+}
+.tag-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.input-container {
+  display: flex;
+}
+
+.tag-input {
+  flex-grow: 1;
+  padding: 8px;
+}
+
+.tag-input::placeholder{
+    color: black;
+    font-family: "Dm Mono";
+    font-weight: bold;
+}
+
+.add-button {
+  margin-left: 8px;
+  padding: 8px;
+}
+
+.add-button:hover{
+    box-shadow: "-2px -5px 0px 0px #000";
+    transform: translateY(1px);
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.tag {
+  background-color: #4a6397;
+  color: #fff;
+  padding: 4px 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.remove-button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 4px;
+  padding: 2px 4px;
+  border-radius: 4px;
+}

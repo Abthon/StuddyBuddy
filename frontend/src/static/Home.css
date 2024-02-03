@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+
+*{
+    user-select: none;
+}
+
+body{
+    background-color: #2d2d39;
+}
+
+.header{
+    background-color: #3f4055;
+    height: 50px;
+    padding: 10px 0px;
+    margin-bottom: 1.5em;
+    /* border: 1px solid red;; */
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+}
+
+.nav__left{
+    display: flex;
+    gap: 30px;
+}
+
+.nav__logo{
+    color: #7fb4ac; 
+    font-size: 35px;
+}
+
+.nav__title{
+    color: white;
+    margin-left: -.7em;
+    color: lightgrey;
+    font-family: 'DM Mono', monospace;
+    margin-right: .8em;
+}
+
+.nav__search{
+    display: flex;
+    align-items: center;
+}
+
+.nav__search > i{
+    color: grey;
+    padding-right: .2em;
+    font-size: 35px;
+    margin-left: -.4em;
+}
+
+.nav__search > input{
+    border: none;
+    outline: none;
+    height: 100%;
+    background-color: #3f4055;
+    padding: .2em;
+    font-size: 1em;
+    color: grey;
+    font-family: 'DM Mono', monospace;
+}
+
+.nav__right{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.nav__avatar{
+    font-size: 3em;
+    color: #7fb4ac;
+}
+
+.nav__account-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav__account-info > span{
+    display: block;
+}
+
+.nav__name{
+    font-size: 1.2em;
+    color: lightgrey;
+    font-family: 'DM Mono', monospace;
+}
+
+.nav__username{
+    font-size: 1em;
+    color: grey;
+}
+
+/* main style*/
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .6em;
+    width: 1100px;
+    margin: 0 auto;
+    height: fit-content;
+}
+
+/* Browse room style*/
+.browse-room{
+    flex: 0.2;
+    /* border: 1px solid red; */
+}
+
+.browse-room > h2{
+    color: whitesmoke;
+    font-family: 'DM Mono', monospace;
+    font-size: 1.3em;
+}
+
+.room__list{
+    list-style-type: none;
+    color: rgba(255,255,255,.6);
+    font-family: 'DM Mono', monospace;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.room__item{
+    padding: .5em 0px;
+    display: flex;
+    cursor: pointer;
+    border: 6px solid transparent;
+}
+
+.room__item:hover{
+    background-color: rgb(78, 82, 109, .2);
+    color: black;
+    border-radius: 3px;
+}
+
+.room__item > img{
+    margin-right: 10%;
+    scale: 1.2;
+}
+
+
+.room__detail{
+    align-self: end;
+    color: #7fb4ac;
+    font-family: 'DM Mono', monospace;
+    font-size: 1em;
+    display: flex;
+    margin-top: 2em;
+    margin-left: .5em;
+    font-weight: bold;
+}
+
+
+/* room style */
+.room{
+    flex: 0.5;
+    padding-left: 2em;
+    /* border: 1px solid orange; */
+    margin-right: 1em;
+}
+
+/* room head */
+.room__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.room__info{
+    flex: 1;
+}
+
+.room__info> h2{
+    color: whitesmoke;
+    font-family: 'DM Mono', monospace;
+    font-size: 1.3em;
+    padding-bottom: .5em;
+    display: inline;
+    letter-spacing: .1em;
+}
+
+.room__info > h3{
+    color: #4a6397;
+    font-family: 'DM Mono', monospace;
+    font-size: .8em;
+    margin-bottom: .8em;
+}
+
+.room__create-room{
+    display: flex;
+    align-items: center;
+    font-family: 'DM Mono', monospace;
+    padding: 1em 1em;
+    background-color: #7fb4ac;
+    width: fit-content;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.room__create-room > i{
+    color: rgba(0,0,0,.7);
+    /* user-select: none; */
+}
+
+.room__create-room > span{
+    font-size: 1em;
+    color: rgba(0,0,0,.7);
+    font-weight: 600;
+    /* user-select: none; */
+}
+
+
+/* room card list style */
+.room__card-list > h3{
+    color: #7fb4ac;
+    font-family: 'DM Mono', monospace;
+    font-size: .9em;
+    margin-bottom: .8em;
+}
+
+.room__card{
+    background-color: #3f4156;
+    padding: 1em;
+    border-radius: 8px ;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.room__header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.room__host-info{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    color: #7fb4ac;
+    font-family: 'DM Mono', monospace;
+    margin-bottom: 1em;
+}
+
+.room__host-info > i{
+    font-size: 2.4em;
+}
+
+.room__status{
+    color: rgba(255,255,255,.6);
+}
+
+.room__status > span{
+    font-family: "Dm Mono";
+}
+
+.room__body{
+    margin-bottom: 2em;
+}
+
+.room__body > span{
+    font-family: 'DM Mono', monospace;
+    color: rgba(255,255,255,.6);
+    font-size: 1.1em;
+}
+
+hr{
+    color: lightgray;
+    opacity: .2;
+}
+
+.room__footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5em ;
+    align-items: center;
+}
+
+.room__people {
+    display: flex;
+    align-items: end;
+    gap: .4em;
+}
+
+.room__people > i{
+    color: #7fb4ac;
+}
+
+.room__people > span{
+    color: rgba(255,255,255,.6);
+    font-family: 'DM Mono', monospace;
+}
+
+.room__tag{
+    padding: .5em 1em;
+    background-color: #4e526d;
+    border-radius:  5px;
+}
+.room__tag > span{
+    text-decoration: none;
+    color: rgba(255,255,255,.6);
+    font-family: 'DM Mono', monospace;
+}
+/* recent component style */
+.recent-activity{
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3f4156;
+    border-radius: 5px;
+}
+
+.recent-activity__heading{
+    background-color: #4e526d;
+    padding: .8em .3em;
+    width: 90%;
+    text-align: center;
+    margin-top: -1em;
+    border-radius: 5px;
+}
+
+.recent-activity__heading > h2{
+    color: whitesmoke;
+    font-family: 'DM Mono', monospace;
+    font-size: 1em;
+    padding-bottom: .5em;
+    display: inline;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.recent-activity__body{
+    margin-top: 1em;
+    font-family: 'DM Mono', monospace;
+    color: rgba(255,255,255,.6)
+}
+
+/* Media Query */
+@media (max-width:1120px){
+    .nav{
+        width: 90%;
+        overflow-x: hidden;
+    }
+
+    .nav__left{
+        width: 100%;
+    }
+
+    .nav__title{
+        margin-right: auto;
+    }
+
+    .nav__search{
+        transform: translateX(24%);
+    }
+
+    .nav__right{
+        display: none;
+    }
+
+    .body{
+      width: 90%;
+      overflow-x: hidden;
+    }
+
+    .browse-room{
+        flex: 0.2 0 auto
+    }
+
+    .room{
+        flex: 0.8 1 auto;
+    }
+
+    .recent-activity{
+        display: none
+    }
+
+}
+
+
+
+@media (max-width: 800px){
+    .nav{
+        width: 90%;
+    }
+
+    .nav__left{
+        width: 100%;
+    }
+
+    .nav__title{
+        margin-right: auto;
+    }
+
+    .nav__right{
+        display: none;
+    }
+
+    .body{
+      width: 90%;
+    }
+
+    .browse-room{
+        display: none;
+    }
+
+    .room{
+        flex: 0.8 1 auto;
+    }
+
+    .recent-activity{
+        display: none
+    }
+
+}
+

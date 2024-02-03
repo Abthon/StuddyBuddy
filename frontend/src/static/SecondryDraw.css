@@ -1,0 +1,93 @@
+.secondryDraw{
+    /* background-color: #2b2d31; */
+    background-color: #3f4156;
+    color: #80848e;
+    flex: 0.2;
+    position: relative;
+}
+
+.channelHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 2px -2px black;
+    padding: 1em 1em 0em 1em;
+}
+
+.channelHeader > i{
+    color: #e5e6e8;
+    transform: translateY(-40%);
+}
+
+.channelContainer{
+    padding: 1em;
+}
+
+.secondryDraw h3{
+    text-align: center;
+    margin-bottom: 1em;
+    color: #e5e6e8;
+}
+
+.channelItem{
+    border: 2px solid rgb(78, 82, 109);
+    border-radius: 3px;
+    margin-bottom: .5em;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.channelName{
+    font-weight: 600;
+}
+
+.channelItem:hover{
+    background-color: rgb(78, 82, 109, .2);
+}
+
+.channelDetail{
+    display: flex;
+}
+
+.avatar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    background-color: rgb(35, 36, 40, .5);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar-detail{
+    margin: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.avatar-detail > i{
+    font-size: 40px;
+    padding-right: .3em;
+}
+
+.avatar-detail-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar-name{
+    color: #e5e6e8;
+    font-size: 18px;
+}
+
+.avatar-username{
+    font-size: 14px;
+}
+
+.avatar .settings{
+    padding-right: .4em;
+}

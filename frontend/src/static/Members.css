@@ -1,0 +1,55 @@
+.members{
+    flex: 0.17;
+    background-color: #3f4156;
+    padding: 1em;
+    padding-top: 2em;
+}
+
+.memberCount{
+    margin-left: .6em;
+    color: #e5e6e8;
+    font-weight: bold;
+    margin-bottom: 1em;
+    font-family: "K2D";
+}
+
+.memberItem{
+    padding: .5em;
+    display: flex;
+    align-items: center;
+    color: #80848e;
+    font-weight: bold;
+    font-family: "K2D";
+}
+
+
+#input-label {
+  display: none;
+}
+
+.input-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 1rem 0rem .5rem;
+  border-radius: 0.3rem;
+  background: #4e526d;
+  box-sizing: border-box;
+  margin-bottom: .5em;
+}
+
+.input-wrap i {
+  font-size: 1.5rem;
+  color: #80848e;
+  cursor: pointer;
+}
+
+#product-search{
+    height: 100%;
+    padding: .5rem 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-left: .6rem;
+    color: #e5e6e8;
+}
