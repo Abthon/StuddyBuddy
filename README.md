@@ -14,6 +14,23 @@ Welcome to StuddyBuddy! 🎉 This project is inspired by Discord and implements 
 - 🌈 Inspired by Discord for a Familiar User Experience
 - 📬 End-to-End Messaging, Emoji Support (coming very soon, Endesu fekad)
 
+## 📸 Screenshots
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="https://github.com/Abthon/StuddyBuddy/blob/main/Screenshots/First.jpg" alt="First" width="200"/></td>
+      <td><img src="https://github.com/Abthon/StuddyBuddy/blob/main/Screenshots/Second.jpg" alt="Second" width="200"/></td>
+      <td><img src="https://github.com/Abthon/StuddyBuddy/blob/main/Screenshots/Third.jpg" alt="Third" width="200"/></td>
+       <td><img src="https://github.com/Abthon/StuddyBuddy/blob/main/Screenshots/Fifth.jpg" alt="Fifth" width="200"/></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/Abthon/StuddyBuddy/blob/main/Screenshots/Sixth.jpg" alt="Sixth" width="200"/></td>
+      <td><img src="https://github.com/Abthon/StuddyBuddy/blob/main/Screenshots/Seventh.jpg" alt="Seventh" width="200"/></td>
+      <td><img src="https://github.com/Abthon/StuddyBuddy/blob/main/Screenshots/Eighth.jpg" alt="Eighth" width="200"/></td>
+    </tr>
+  </table>
+</div>
 
 ## Tech Stack
 
